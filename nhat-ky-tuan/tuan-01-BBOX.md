@@ -10,10 +10,10 @@
 | Thành viên | Vị trí | Phân công tuần này |
 |---|---|---|
 | HỒ MINH HẬU (@hominhhau) | Lead | Chia job, chốt edge case, review xác suất 10% mọi job |
-| Đào Duy Anh (@JackSkyVN) | Annotator, Reviewer | Job 1381 |
-| NGUYỄN HỮU HUY (@hynu15)| Annotator, Reviewer | Job  1380 |
-| NGUYỄN ĐĂNG VĨ ANH (@NDViANh) | Annotator, Reviewer | Job 1379 |
-| NGUYỄN TRỌNG MINH ĐỨC (@emsiCUD) | Annotator, Reviewer | Job 1378 |
+| Đào Duy Anh (@JackSkyVN) | Annotator, Reviewer |gán Job 1381, review Job 1380 |
+| NGUYỄN HỮU HUY (@hynu15)| Annotator, Reviewer | gán Job  1380, review Job 1381 |
+| NGUYỄN ĐĂNG VĨ ANH (@NDViANh) | Annotator, Reviewer | gán Job 1379, review Job 1378 |
+| NGUYỄN TRỌNG MINH ĐỨC (@emsiCUD) | Annotator, Reviewer | gán Job 1378, review Job 1379 |
 
 ## Công việc
 
