@@ -2,7 +2,7 @@
 
 
 
-**Lead tuần này:** HỒ MINH HẬU
+**Lead tuần này:** HỒ MINH HẬU (@hominhhau)
 **Dữ liệu / task CVAT:** Ảnh giao thông đô thị — [task #132](https://cvat.note.transformerlabs.ai/tasks/132)
 
 ## Thành viên và phân công
@@ -19,10 +19,10 @@
 
 | # | Nội dung công việc | Annotator | Reviewer | Hoàn thành | Ghi chú |
 |---|---|---|---|---|---|
-| 1 | Job 1381 — 25 ảnh, cùng nhãn |@JackSkyVN |  | |  |
-| 2 | Job 1380 — 25 ảnh, cùng nhãn | @hynu15 | |  |  |
-| 3 | Job 1379 — 25 ảnh, cùng nhãn | @NDViANh |  | |  |
-| 4 | Job 1378 — 25 ảnh, cùng nhãn | @emsiCUD |  |  |  |
+| 1 | Job 1381 — 25 ảnh, cùng nhãn |@JackSkyVN |@hynu15  | |  |
+| 2 | Job 1380 — 25 ảnh, cùng nhãn | @hynu15 |@JackSkyVN |  |  |
+| 3 | Job 1379 — 25 ảnh, cùng nhãn | @NDViANh |@emsiCUD  | |  |
+| 4 | Job 1378 — 25 ảnh, cùng nhãn | @emsiCUD |@NDViANh  |  |  |
 | 5 | Đọc lại guideline , gom các ca chưa rõ | | | ✅ 100% | Cả nhóm xem lại kĩ guideline |
 
 
