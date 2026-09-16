@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | [QĐ-001](#qđ-001) | Cách vẽ Polyline cho Lane Marking: vẽ 1 đường đi giữa tim vạch, không vẽ sát biên | 16/09/2026 | Guideline §4.2 | Hiệu lực |
 | [QĐ-002](#qđ-002) | Ngưỡng gán nhãn vật thể bị che khuất (Occluded): chỉ gán khi nhìn thấy trên 20%  | 16/09/2026 | Guideline §3.1 / P-002 | Hiệu lực |
-| [QĐ-003](#qđ-003) | Gán nhãn Đèn giao thông (`traffic light`): chỉ vẽ Bounding Box cho cụm hộp đèn | 16/09/2026 | Guideline §3 / [P-001](problem-backlog.md#p-001) | Hiệu lực |
+| [QĐ-003](#qđ-003) | Gán nhãn Đèn giao thông (`traffic light`): chỉ vẽ Bounding Box cho cụm hộp đèn | 16/09/2026 | Guideline §3 / [P-001](problem-backlog.md#p-002) | Hiệu lực |
 | [QĐ-004](#qđ-004) | Quy tắc vẽ Polygon cho `area/drivable`: vẽ toàn bộ phần đường xe có thể chạy, bao gồm cả vạch kẻ đường | 16/09/2026 | Guideline §4.1 | Hiệu lực |
 | [QĐ-005](#qđ-005) | Quy tắc vẽ Polyline cho `lane/road curb`: vẽ bám theo biên trên của gờ đường | 16/09/2026 | Guideline §4.2 | Hiệu lực |
 
