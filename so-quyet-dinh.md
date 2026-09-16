@@ -7,7 +7,7 @@
 | Mã | Quyết định | Ngày | Xuất phát từ | Trạng thái |
 |---|---|---|---|---|
 | [QĐ-001](#qđ-001) | Cách vẽ Polyline cho Lane Marking: vẽ 1 đường đi giữa tim vạch, không vẽ sát biên | 16/09/2026 | Guideline §4.2 | Hiệu lực |
-| [QĐ-002](#qđ-002) | Ngưỡng gán nhãn vật thể bị che khuất (Occluded): chỉ gán khi nhìn thấy trên 40% | 16/09/2026 | Guideline §3.1 / P-002 | Hiệu lực |
+| [QĐ-002](#qđ-002) | Ngưỡng gán nhãn vật thể bị che khuất (Occluded): chỉ gán khi nhìn thấy trên 20%  | 16/09/2026 | Guideline §3.1 / P-002 | Hiệu lực |
 | [QĐ-003](#qđ-003) | Gán nhãn Đèn giao thông (`traffic light`): chỉ vẽ Bounding Box cho cụm hộp đèn | 16/09/2026 | Guideline §3 / [P-001](problem-backlog.md#p-001) | Hiệu lực |
 | [QĐ-004](#qđ-004) | Quy tắc vẽ Polygon cho `area/drivable`: vẽ toàn bộ phần đường xe có thể chạy, bao gồm cả vạch kẻ đường | 16/09/2026 | Guideline §4.1 | Hiệu lực |
 | [QĐ-005](#qđ-005) | Quy tắc vẽ Polyline cho `lane/road curb`: vẽ bám theo biên trên của gờ đường | 16/09/2026 | Guideline §4.2 | Hiệu lực |
@@ -41,8 +41,8 @@
 - **Xuất phát từ:** Guideline §3.1 & P-002 (Vật thể bị che khuất)
 - **Bối cảnh:** Guideline đề cập bật attribute `occluded = true` khi vật thể bị che khuất một phần, nhưng chưa quy định rõ ngưỡng diện tích hiển thị tối thiểu để gán nhãn.
 - **Các phương án đã cân nhắc:**
-  1. *Gán nhãn mọi vật thể bị che dù chỉ nhìn thấy tỉ lệ nhỏ (< 40%)* — dễ suy đoán class thiếu căn cứ, làm giảm độ chính xác của dữ liệu. Loại.
-  2. *Chỉ gán nhãn khi diện tích nhìn thấy được > 40%* — đảm bảo đủ bằng chứng thị giác để xác định chắc chắn class, không đoán mò. **Chọn.**
+  1. *Gán nhãn mọi vật thể bị che dù chỉ nhìn thấy tỉ lệ nhỏ (< 20%)* — dễ suy đoán class thiếu căn cứ, làm giảm độ chính xác của dữ liệu. Loại.
+  2. *Chỉ gán nhãn khi diện tích nhìn thấy được > 20%* — đảm bảo đủ bằng chứng thị giác để xác định chắc chắn class, không đoán mò. **Chọn.**
 - **Quyết định:** Đối với các vật thể bị che khuất (`occluded`), chỉ thực hiện gán nhãn (và bật attribute `occluded = true`) nếu phần vật thể nhìn thấy được chiếm **trên 40%** diện tích. Trường hợp nhìn thấy từ **40% trở xuống**, coi như không xác định và **không gán nhãn**.
 - **Việc phải làm theo:**
   - [x] Cập nhật quy tắc tới toàn bộ thành viên nhóm K4-T14 (@hominhhau)
