@@ -12,6 +12,7 @@ mỗi người sẽ tự xử lý theo một kiểu — và đó là nguồn l�
 | [P-001](#p-001) | Không rõ định nghĩa của `area/drivable`, `area/alternative` | Guideline mơ hồ | §4.1 | ✅ Đã chốt | [QĐ-004](so-quyet-dinh.md#qđ-004) |
 | [P-002](#p-002) | Đèn giao thông (`traffic light`): vẽ cả cột đèn hay chỉ cụm hộp đèn | Guideline mơ hồ | §3 | ✅ Đã chốt | [QĐ-003](so-quyet-dinh.md#qđ-003) |
 | [P-003](#p-003) | Vật bị phản chiếu (trên kính, gương chiếu hậu) có gán nhãn hay không | Guideline mơ hồ | §3 | ↗️ Hỏi Mentor | — |
+| [P-004](#p-004) | Vạch kẻ đường (lane marking) nhỏ, nằm sát nhau khó vẽ Polyline | Pain point công cụ | §4.2 | 🗣️ Đang bàn | — |
 
 **Loại**
 
@@ -74,6 +75,22 @@ mỗi người sẽ tự xử lý theo một kiểu — và đó là nguồn l�
 - **Xử lý tạm trong lúc chờ:** Tạm thời không gán nhãn các bóng/hình phản chiếu và gửi câu hỏi chờ Mentor chốt.
 - **Kết quả:** ↗️ Hỏi Mentor
 
+
+## P-004
+
+**Vạch kẻ đường (lane marking) nhỏ, nằm sát nhau khó vẽ Polyline và dễ nhầm lẫn**
+
+- **Loại:** Pain point công cụ
+- **Mục guideline:** §4.2 — Polyline – Lane Marking
+- **Người phát hiện:** @hominhhau · 17/09/2026
+- **Link CVAT:**
+  - [https://cvat.note.transformerlabs.ai/tasks/132](https://cvat.note.transformerlabs.ai/tasks/132/jobs/1378?frame=3)
+  - https://cvat.note.transformerlabs.ai/tasks/132/jobs/1378?frame=5
+- **Mô tả:** Khi gán nhãn Polyline cho các vạch kẻ đường (vạch trắng, vàng) ở xa hoặc nằm quá sát nhau, điểm vẽ (vertex) bị chồng chéo làm annotator khó thao tác chính xác và dễ vẽ nhầm sang đường bên cạnh.
+- **Hướng đang cân nhắc:**
+  1. Zoom cận cảnh tối đa giao diện CVAT và chỉnh giảm bán kính điểm vẽ (point radius) trong cài đặt CVAT để dễ đặt mốc.
+  2. Dùng tính năng ẩn bớt đối tượng (`Hide`) đối với các Polyline đã vẽ xong trước khi chấm điểm cho vạch kế tiếp.
+- **Kết quả:** 🗣️ Đang bàn
 ---
 
 ## Mẫu để copy
