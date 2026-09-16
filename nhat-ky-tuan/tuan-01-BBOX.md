@@ -19,24 +19,23 @@
 
 | # | Nội dung công việc | Annotator | Reviewer | Hoàn thành | Ghi chú |
 |---|---|---|---|---|---|
-| 1 | Job 1381 — 25 ảnh, cùng nhãn |@JackSkyVN |@hynu15  | |  |
-| 2 | Job 1380 — 25 ảnh, cùng nhãn | @hynu15 |@JackSkyVN |  |  |
-| 3 | Job 1379 — 25 ảnh, cùng nhãn | @NDViANh |@emsiCUD  | |  |
-| 4 | Job 1378 — 25 ảnh, cùng nhãn | @emsiCUD |@NDViANh  |  |  |
+| 1 | Job 1381 — 25 ảnh, cùng nhãn |@JackSkyVN |@hynu15  |🟡 đang làm (70 %) |  |
+| 2 | Job 1380 — 25 ảnh, cùng nhãn | @hynu15 |@JackSkyVN |🟡 đang làm (80 %)  |  |
+| 3 | Job 1379 — 25 ảnh, cùng nhãn | @NDViAnh |@emsiCUD  |🟡 đang làm (80 %) |  |
+| 4 | Job 1378 — 25 ảnh, cùng nhãn | @emsiCUD |@NDViAnh  | 🟡 đang làm (86 %) |  |
 | 5 | Đọc lại guideline , gom các ca chưa rõ | | | ✅ 100% | Cả nhóm xem lại kĩ guideline |
+| 6 | Review xác xuất ngẫu nhiên job |  | @hominhhau| 🟡 đang làm (80 %) | review ngẫu nhiên tất cả các job |
 
 
 Mức hoàn thành: ✅ xong **và đã qua review** · 🟡 đang làm (ghi %) · ⛔ bị chặn (ghi lý do) · ⬜ chưa bắt đầu
 
 ## Tổng kết
 
-- Đã gán: 0 /100  ảnh 
+- Đã gán: 0 /100  ảnh : đang trong quá trình gán nhãn 
 - Qua review lần đầu: 
 - Edge case mới: 
 
 ## Vướng mắc
-
-
 
 ## Kế hoạch tuần 02
 
